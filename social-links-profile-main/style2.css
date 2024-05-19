@@ -1,0 +1,66 @@
+body{
+    --White: hsl(0, 0%, 100%);
+--Grey: hsl(0, 0%, 20%);
+--Dark-Grey: hsl(0, 0%, 12%);
+--Off-Black: hsl(0, 0%, 8%);
+--Green: hsl(75, 94%, 57%);
+background: var(--Off-Black);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 700px;
+
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(https://fonts.google.com/specimen/Inter-Regular);
+  }
+
+.container{
+    
+    background-color: var(--Dark-Grey);
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.container h2{
+    color: var(--White);
+}
+.img p{
+    color: var(--Green);
+    margin-bottom: 10px;
+}
+.img{
+    text-align: center;
+}
+
+
+
+.img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+
+}
+.social{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--White);
+    
+}
+.social button{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: var(--Dark-Grey);
+    color:solid  var(--White);
+    cursor: pointer;
+    font-weight: 600;
+}
+.social button:hover{
+    background-color: var(--Green);
+    color: var(--Dark-Grey);
+    outline: none;
+}

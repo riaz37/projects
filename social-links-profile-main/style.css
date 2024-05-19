@@ -1,0 +1,17 @@
+body{
+    --White: hsl(0, 0%, 100%);
+--Grey: hsl(0, 0%, 20%);
+--Dark-Grey: hsl(0, 0%, 12%);
+--Off-Black: hsl(0, 0%, 8%);
+--Green: hsl(75, 94%, 57%);
+background-color: var(--Off-Black);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.container{
+    width: 400px;
+    background-color: var(--Dark-Grey);
+}
